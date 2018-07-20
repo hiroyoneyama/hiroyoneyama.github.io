@@ -1,9 +1,10 @@
 body {
     font-family: helvetica;
+    margin: 0px;
 }
 
-#logo {
-    width: 200px;
+.logo {
+    align-self: center;
 }
 
 .background {
@@ -23,7 +24,20 @@ body {
     justify-content: center;
 }
 
-#nav { 
+#header >div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+#header .image {
+    width: 160px;
+    padding-left: 30px;
+    padding-bottom: 60px;
+}
+
+#nav {
     display: flex;
     justify-content: space-evenly;
 }
@@ -60,7 +74,37 @@ body {
     padding: 30px 60px;
 }
 
-#contact-us {
+#footer {
+  border-top: 2px solid #127D09;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 10px 10px;
+}
+
+#footer a {
+    color: #127D09;
+}
+
+#home {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#home .paragraph {
+  width: 600px;
+}
+
+#home .images {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+#home .images img {
+  padding-top: 30px;
+}
+
+#contact-us >div {
     display: flex;
     flex-wrap: wrap;
 }
@@ -71,7 +115,7 @@ body {
 }
 
 #contact-us #details {
-    
+
 }
 
 #contact-us #contact-hours {
