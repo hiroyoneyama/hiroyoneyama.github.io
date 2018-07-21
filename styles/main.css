@@ -1,6 +1,10 @@
 body {
     font-family: helvetica;
     margin: 0px;
+    text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 .logo {
@@ -94,6 +98,11 @@ body {
   width: 600px;
 }
 
+#home #images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #home .images {
   display: flex;
   flex-direction: column;
@@ -101,6 +110,25 @@ body {
 }
 
 #home .images img {
+  padding-top: 30px;
+}
+
+#about .content-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about .paragraph {
+  width: 900px;
+}
+
+#about .images {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+#about .images img {
   padding-top: 30px;
 }
 
