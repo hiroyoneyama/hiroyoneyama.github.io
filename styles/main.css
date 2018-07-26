@@ -11,6 +11,11 @@ body {
     align-self: center;
 }
 
+#logo_text {
+  padding-left: 50px;
+    width:600px;
+}
+
 .background {
     background-color: #D3D2D1;
 }
@@ -69,81 +74,50 @@ body {
 #nav .item .link .text {
     align-self: center;
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     text-transform: uppercase;
 }
 
 .content {
-    font-size: 18px;
+    font-size: 24px;
     padding: 30px 60px;
 }
 
 #footer {
+  //background-color: #8CBD3A;
   border-top: 2px solid #127D09;
   display: flex;
+  font-size: 24px;
   justify-content: center;
-  padding: 10px 0 10px 10px;
+  padding: 30px 0 30px 30px;
 }
 
 #footer a {
     color: #127D09;
 }
 
-#home {
+.content-body {
   display: flex;
   flex-wrap: wrap;
 }
 
-#home .paragraph {
-  width: 600px;
+.paragraph {
+  width: 800px;
 }
 
-#home #images {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#home .images {
-  display: flex;
-  flex-direction: column;
-  padding-left: 50px;
-}
-
-#home .images img {
+.images img {
   padding-top: 30px;
 }
 
-#about .content-body {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#about .paragraph {
-  width: 900px;
-}
-
-#about .images {
+.images {
   display: flex;
   flex-direction: column;
   padding-left: 50px;
-}
-
-#about .images img {
-  padding-top: 30px;
-}
-
-#contact-us >div {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 #contact-us #map {
     padding-bottom: 30px;
     padding-right: 30px;
-}
-
-#contact-us #details {
-
 }
 
 #contact-us #contact-hours {
