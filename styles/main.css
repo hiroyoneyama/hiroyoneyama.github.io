@@ -121,6 +121,10 @@ body {
     padding-right: 30px;
 }
 
+#contact-us #details a {
+    color: #127D09;
+}
+
 #contact-us #contact-hours {
     display: flex;
 }
