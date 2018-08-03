@@ -85,7 +85,6 @@ body {
 }
 
 #footer {
-  //background-color: #8CBD3A;
   border-top: 2px solid #127D09;
   display: flex;
   font-size: 24px;
@@ -104,7 +103,8 @@ body {
 }
 
 .paragraph {
-  width: 800px;
+  min-width: 300px;
+  flex: 1 0;
 }
 
 .images img {
@@ -119,15 +119,11 @@ body {
 
 #contact-us #map {
     padding-bottom: 30px;
-    padding-right: 30px;
+    padding-right: 60px;
 }
 
 #contact-us #details a {
     color: #127D09;
-}
-
-#contact-us #contact-hours {
-    //display: flex;
 }
 
 #contact-us #contact-hours p {
