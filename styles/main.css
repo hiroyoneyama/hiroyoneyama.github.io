@@ -100,6 +100,7 @@ body {
 .content-body {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .paragraph {
@@ -126,7 +127,11 @@ body {
 }
 
 #contact-us #contact-hours {
-    display: flex;
+    //display: flex;
+}
+
+#contact-us #contact-hours p {
+    margin: 20px 0;
 }
 
 #contact-us #contact-hours #days {
